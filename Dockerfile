@@ -8,5 +8,5 @@ RUN npm i -g npm@6.13.6
 ENTRYPOINT []
 CMD []
 
-RUN apt-get update && apt-get install -y curl build-essential git nodejs google-chrome-stable
+RUN apt-get update && apt-get install -y curl build-essential git google-chrome-stable
 
