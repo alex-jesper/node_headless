@@ -6,7 +6,7 @@ RUN curl -sL http://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add 
 RUN npm i -g npm@6.13.6
 
 ENTRYPOINT []
-CMD []
+CMD ["/bin/bash"]
 
 RUN apt-get update && apt-get install -y curl build-essential git google-chrome-stable
 
